@@ -1,0 +1,42 @@
+/* http://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: ghostwhite;
+}
+
+section h2.bodyheader {
+  text-align: center;
+  color: black;
+}
+
+img {
+  height: 200;
+  width: 200;
+}
+
+#bodytext {
+  line-height: 150%;
+}
+
+.app-logo {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: auto;
+  max-height: 100px;
+}
